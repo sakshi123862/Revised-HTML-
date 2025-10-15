@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML practice page</title>
+    <style>
+      .highlight {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="highlight" title="This is a heading">Welcome to my page</h1>
+    <p>
+      HTML is a markup language used to design web pages. It uses tags and
+      attributes to structure content like headings, paragraphs, lists, images,
+      and links. By practicing HTML regularly, I can create attractive and
+      functional websites. Learning HTML is the first step toward becoming a web
+      developer, and consistent practice improves my skills quickly
+    </p>
+    <!-- This is a hidden paragraph -->
+    <p hidden>This paragraph is hidden</p>
+
+    <!-- Link and Image -->
+
+    <a href="https://www.google.com" target="_blank">Visit Google</a>
+
+    <hr />
+
+    <img
+      src="https://images.squarespace-cdn.com/content/v1/59892b06197aeaaabf7fe8c6/1506124587388-RYI7IFRXECC31Z1PHEHX/download.jpeg?format=2500w"
+      alt="house image"
+      width="180"
+      height="180"
+    />
+
+    <hr />
+
+    <!-- List of Hobby -->
+
+    <ul id="hobby-list">
+      <li>Reading</li>
+      <li>Music</li>
+      <li>Coding</li>
+    </ul>
+
+    <!-- Form -->
+    <form action="/submit" method="POST">
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter username"
+        required
+      />
+      <br /><br />
+      <label for="password">password:</label>
+      <input type="password" name="password" required />
+      <br /><br />
+      <input type="checkbox" name="remember" checked /> Rememeber Me
+      <br /><br />
+      <input type="submit" value="Login" />
+    </form>
+  </body>
+</html>
