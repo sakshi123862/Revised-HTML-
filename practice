@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="HTML, CSS" />
+    <title>my first HTML page</title>
+    <style>
+      img {
+        height: 150px;
+        width: 150px;
+        border-radius: 70px;
+        float: left;
+        margin-right: 10px;
+      }
+
+      .username {
+        font-weight: bold;
+      }
+
+      em {
+        color: blue;
+        font-size: normal;
+      }
+
+      body {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9APxkj0xClmrU3PpMZglHQkx446nQPG6lA&s"
+      alt="image"
+    />
+    <a href="#para">raw para</a>
+
+    <p class="username">
+      I am a &lt;sakshi&gt;! &copy;<em>future web developer</em>
+    </p>
+    <p>I <strong>love</strong> to code</p>
+    <h1>Hey this is me 1</h1>
+    <h2>Hey this is me 2</h2>
+    <h3>Hey this is me 3</h3>
+    <h4>Hey this is me 4</h4>
+    <h5>Hey this is me 5</h5>
+    <h6>Hey this is me 6</h6>
+
+    <p id="para">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+      aliquam accusamus praes&nbsp;entium quae error illonenim nisi? At,
+      reprehenderit eius veniam ipsam placeat esse eveniet deserunt. Eos
+      dignissimos doloribus quam reprehenderit ut! Necessitatibus neque, eos sit
+      quam maxime molestias a distinctio rerum quibusdam quod, nisi quisquam eum
+      dolorem aut culpa?
+    </p>
+    <a href="https://www.codewithharry.com/" target="_blank"
+      ><img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOqzGs5EHz56gKSQeXNcuUj5pkr4kCXu26kA&s"
+    /></a>
+
+    <a
+      href="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BkMzYtNS1hczE3LTE0OC0yMjcyNy5qcGc.jpg"
+      download
+      >Earth</a
+    >
+    <a href="#">Jump to top</a>
+    <a href="https://google.com" target="_blank">Google</a>
+    <a href="mailto:programmingwithmosh@gmail.com">Email</a>
+  </body>
+</html>
