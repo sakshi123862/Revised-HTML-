@@ -1,62 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>simple Profile card</title>
-    <style>
-      body {
-        background-color: #f9f9f9;
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Profile Card</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
 
+    .card {
+      background-color: aliceblue;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 20px;
+      width: 250px;
+    }
+
+    .card img {
+      border-radius: 50%;
+      margin-bottom: 10px;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .card p {
+      color: #777;
+      margin-bottom: 15px;
+    }
+
+    .card button {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .card button:hover {
+      background-color: #ff1493;
+    }
+
+    /* Responsive for smaller screens */
+    @media (max-width: 400px) {
       .card {
-        background-color: aliceblue;
-        border-radius:  15px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        text-align: center;
-        padding: 20px;
-        width: 250px;
+        width: 90%;
+        padding: 15px;
       }
-
-      .card img {
-        border-radius: 50%;
-        margin-bottom: 10px;
-      }
-
-      .card h2 {
-        color: #333;
-      }
-
-      .card p {
-  color: #777;
-}
-
-.card button {
-  background-color: #ff69b4;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-
-.card button:hover {
-  background-color: #ff1493;
-}
-      </style>
-    <head>
-      <body>
+    }
+  </style>
+</head>
+<body>
   <div class="card">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1irakm2XKD0xniYh-97QAtfcJURglitNMCA&s">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1irakm2XKD0xniYh-97QAtfcJURglitNMCA&s" alt="Profile Picture">
     <h2>Sakshi Mane</h2>
-    <p>Web Developer Learner &#127804;</p>
+    <p>Web Developer Learner 🌸</p>
     <button>Follow</button>
-    </div>
-  </body>
-  </html>
-      </body>
-      </html>
+  </div>
+</body>
+</html>
